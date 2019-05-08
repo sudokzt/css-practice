@@ -1,0 +1,88 @@
+html,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+}
+.header {
+  height: 100px;
+}
+.header ul {
+  /* display: inline-block の空白を消す　-> 子要素に latter-spacing: normarをつけて、元に戻す必要あり */
+  letter-spacing: -0.5em;
+}
+.header__item {
+  width: 20%;
+  height: 100px;
+  display: inline-block;
+  letter-spacing: normal;
+}
+.header__item:nth-of-type(odd) {
+  background-color: skyblue;
+}
+.header__item:nth-of-type(even) {
+  background-color: blue;
+}
+
+.body {
+  height: 600px;
+}
+.body__1 {
+  position: relative;
+  height: 300px;
+  background-color: gray;
+}
+.body__1__item-1 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  top: 30%;
+  left: 20%;
+}
+.body__1__item-2 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: orange;
+  top: 30%;
+  right: 20%;
+}
+.body__2 {
+  position: relative;
+  height: 300px;
+  background-color: pink;
+}
+.body__2__items {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.body__2__items__item-1 {
+  height: 100%;
+  width: 100px;
+  background-color: lime;
+  float: left;
+}
+.body__2__items__item-2 {
+  height: 100%;
+  width: 100px;
+  background-color: green;
+  float: left;
+}
+.footer {
+  height: 200px;
+  background-color: black;
+}
