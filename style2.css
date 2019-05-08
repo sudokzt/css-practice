@@ -1,0 +1,72 @@
+html,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: blanchedalmond;
+}
+li {
+  list-style: none;
+}
+
+.container {
+  width: 600px;
+  height: 900px;
+  background-color: white;
+  margin: 0 auto;
+}
+.header {
+  height: 200px;
+}
+.header__title {
+  height: 100px;
+  background-color: blue;
+}
+.header__nav {
+  height: 100px;
+}
+.header__nav ul {
+  height: 100%;
+}
+.header__nav__item {
+  width: 100px;
+  height: 100%;
+  float: left;
+}
+.header__nav__item:nth-of-type(even) {
+  background-color: pink;
+}
+.header__nav__item:nth-of-type(odd) {
+  background-color: gray;
+}
+.body {
+  height: 600px;
+}
+.body__main {
+  width: 400px;
+  height: 100%;
+  background-color: skyblue;
+  float: left;
+}
+.body__menu {
+  width: 200px;
+  float: left;
+}
+.body__menu--yellow {
+  height: 200px;
+  background-color: yellow;
+}
+.body__menu--orange {
+  height: 200px;
+  background-color: orange;
+}
+.body__menu--red {
+  height: 200px;
+  background-color: red;
+}
+.footer {
+  height: 100px;
+  background-color: lime;
+}
