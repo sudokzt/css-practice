@@ -54,15 +54,15 @@ li {
   width: 200px;
   float: left;
 }
-.body__menu--yellow {
+.body__menu--1 {
   height: 200px;
   background-color: yellow;
 }
-.body__menu--orange {
+.body__menu--2 {
   height: 200px;
   background-color: orange;
 }
-.body__menu--red {
+.body__menu--3 {
   height: 200px;
   background-color: red;
 }
